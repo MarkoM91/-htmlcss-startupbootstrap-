@@ -13,12 +13,19 @@ nav{
   position: sticky;
   top: 0;
 }
-.nav-left, .nav-right{
-  float: left;
-  width: 50%;
+nav::after{
+  clear: both;
+  content: "";
+  display: table;
 }
-.container img{
+.header{
   width: 100%;
+  height: 100%;
+  background: #20c997
+}
+.header > div img{
+  width: 250px;
+  height: 250px;
 }
 .container{
   background: #20c997;
@@ -52,20 +59,14 @@ div.grid::after{
 .body{
   width: 100%;
 }
-.body > *{
-  float: left;
-  width: calc(100% / 2);
-}
+
 .info-container{
   width: 75%;
   margin: auto;
   text-align: center;
 }
-.info-left, .info-center, .info-right{
-  width: calc(100% / 3);
-  float: left;
-}
-.row img{
+
+.grid > div img{
   width: 100%;
   height: 100%;
 }
