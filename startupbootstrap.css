@@ -86,8 +86,7 @@ section.portfolio{
   content: "";
   display: table;
 }
-}
-}
+
 
 div.grid::after{
   clear: both;
@@ -131,9 +130,7 @@ div.grid::after{
   width: 100%;
   height: 100%;
 }
-.contact span{
-  display: block;
-}
+
 
 .navbar > ul > li{
 list-style: none
@@ -152,7 +149,7 @@ list-style: none
   color: rgb(24, 14, 87)
 }
 .button{
-  padding: 50px 0;
+  padding: 40px 0;
   height: 66px;
   width: 234px;
   border-radius: 8px;
@@ -160,6 +157,7 @@ list-style: none
   margin: auto;
   color: rgba(1, 0, 0, 0.81);
   font-size: 30px;
+  margin-top: 70px;
 }
 #button1{
   position: relative;
@@ -168,4 +166,21 @@ list-style: none
 
 .contact h2{
   font-size: 60px;
+
+}
+.contact span{
+  font-size: 35px;
+  color: rgb(24, 14, 87);
+  margin-bottom: 30px;
+}
+.info{
+  background-color: rgb(24, 14, 87);
+  color: white;
+  padding: 15px 0;
+  text-align: center;
+}
+.info::after{
+  clear: both;
+  content: "";
+  display: table;
 }
