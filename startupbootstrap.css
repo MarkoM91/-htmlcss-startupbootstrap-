@@ -2,6 +2,7 @@
 body{
   margin: 0;
 }
+
 nav{
   height: 100px;
   width: 100%;
@@ -22,11 +23,13 @@ nav span{
   padding: 0 20px 0;
   font-family: Montserrat;
 }
+
 nav::after{
   clear: both;
   content: "";
   display: table;
 }
+
 .header{
   width: 100%;
   height: 100%;
@@ -35,25 +38,27 @@ nav::after{
   margin: auto;
   color: white;
 }
+
 .header > div > h1{
   font-size: 3rem;
   font-weight: 700;
   text-transform: uppercase;
-
 }
-.intro, .portfolio, .about, .contact{
+
+intro, .portfolio, .about, .contact{
   padding: 100px 0;
 }
+
 .portfolio h2, .about-container h2, .text h2 {
   padding-bottom: 75px;
 }
 
-}
 .intro{
   margin: auto;
   width: 75%;
   text-align: center;
 }
+
 .header > div img{
   width: 250px;
   height: 250px;
@@ -63,18 +68,22 @@ nav::after{
   text-align: center;
   color: rgb(24, 14, 87);
   }
+
 .portfolio-container h2{
   font-size: 60px;
   font-weight: 700;
   text-transform: uppercase;
 }
+
 .grid{
   width: 75%;
   margin: auto;
-  }
-  .grid div{
-    padding-bottom: 30px;
-  }
+}
+
+.grid div{
+  padding-bottom: 30px;
+}
+
 .body::after{
   clear: both;
   content: "";
@@ -87,29 +96,30 @@ section.portfolio{
   display: table;
 }
 
-
 div.grid::after{
   clear: both;
   content: "";
   display: table;
 }
+
 .about{
   text-align: center;
   padding: 50px;
   background-color: #20c997;
   color: white;
 }
+
 .body  div  {
   text-align: left;
   padding: 0 20px;
 }
 
-}
 .about-container{
   width: 75%;
   margin: auto;
   color: white;
 }
+
 .about-container h2{
   padding-bottom: 50px;
   font-size: 60px;
@@ -131,23 +141,25 @@ div.grid::after{
   height: 100%;
 }
 
-
 .navbar > ul > li{
 list-style: none
 }
+
 .contact::after{
   clear: both;
   content: "";
   display: table;
 }
+
 .text{
   text-align: center;
   margin-bottom: 75p
-
 }
+
 .contact{
   color: rgb(24, 14, 87)
 }
+
 .button{
   padding: 40px 0;
   height: 66px;
@@ -159,6 +171,7 @@ list-style: none
   font-size: 30px;
   margin-top: 70px;
 }
+
 #button1{
   position: relative;
   right: 40px;
@@ -166,19 +179,21 @@ list-style: none
 
 .contact h2{
   font-size: 60px;
-
 }
+
 .contact span{
   font-size: 35px;
   color: rgb(24, 14, 87);
   margin-bottom: 30px;
 }
+
 .info{
   background-color: rgb(24, 14, 87);
   color: white;
   padding: 15px 0;
   text-align: center;
 }
+
 .info::after{
   clear: both;
   content: "";
