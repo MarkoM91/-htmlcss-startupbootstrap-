@@ -37,6 +37,7 @@ nav::after{
   text-align: center;
   margin: auto;
   color: white;
+  padding: 100px 0;
 }
 
 .header > div > h1{
@@ -198,4 +199,14 @@ list-style: none
   clear: both;
   content: "";
   display: table;
+}
+
+.btn{
+  width: 52px;
+  height: 52px;
+  border: 5px solid white;
+  background-color: rgb(24, 14, 87);
+  border-radius: 50%;
+  padding: 10px;
+  margin: 10px;
 }
