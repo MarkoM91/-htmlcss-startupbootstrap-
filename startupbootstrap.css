@@ -36,6 +36,9 @@ nav::after{
   padding: 100px 0;
   text-align: center;
 }
+.intro img{
+  margin: auto;
+}
 
 .header > div > h1{
   font-size: 3rem;
