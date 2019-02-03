@@ -148,6 +148,7 @@ list-style: none
   color: rgba(1, 0, 0, 0.81);
   font-size: 30px;
   margin-top: 70px;
+  position: relative;
 }
 
 #button1{
@@ -199,6 +200,9 @@ list-style: none
 @media screen and (max-width:768px) {
   #right{
     display: none;
+  }
+  .button{
+    margin: auto;
   }
 
 }
