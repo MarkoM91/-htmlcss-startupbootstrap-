@@ -11,8 +11,7 @@ nav{
   height: 100px;
   width: 100%;
   background-color: rgb(24, 14, 87);
-    margin: auto;
-  text-align: center;
+  margin: auto;
   color: white;
   position: sticky;
   top: 0;
@@ -38,8 +37,8 @@ nav::after{
   background: #20c997;
   color: white;
   padding: 100px 0;
-  text-align: center;
-}
+
+  }
 .intro img{
   margin: auto;
 }
@@ -57,32 +56,18 @@ nav::after{
 .portfolio h2, .about h2, .text h2 {
   padding-bottom: 75px;
   text-align: center;
-  font-size: 50px;
+  font-size: 60px;
   font-weight: 600;
   text-transform: uppercase;
 }
 
-
-
-
-
 .portfolio{
-  text-align: center;
   color: rgb(24, 14, 87);
   }
-
-.portfolio h2{
-  font-size: 60px;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-
 
 .column div{
   padding-bottom: 30px;
   margin: auto;
-
 }
 
 .body::after{
@@ -91,8 +76,6 @@ nav::after{
   display: table;
 }
 
-
-
 div.column::after{
   clear: both;
   content: "";
@@ -100,13 +83,13 @@ div.column::after{
 }
 
 .about{
-text-align: center;
   padding: 50px;
   background-color: #20c997;
   color: white;
   font-weight: 300;
   margin: auto;
 }
+
 
 .body  div  {
   padding: 0 20px;
@@ -131,7 +114,6 @@ list-style: none
 .text{
   text-align: center;
   margin-bottom: 75px;
-
 }
 
 .contact{
@@ -147,13 +129,16 @@ list-style: none
   margin: auto;
   margin-top: 70px;
 }
+.button:hover {
+  background-color: white;
+  border: 5px solid #20c997;
+}
+
+
 .button a{
   font-size: 20px;
   color: rgb(24, 14, 87);
-  text-align: center;
-
-}
-.
+  }
 
 #button1{
   position: relative;
@@ -162,7 +147,6 @@ list-style: none
 
 .contact h2{
   font-size: 60px;
-  text-align: center;
 }
 
 .contact span{
@@ -201,6 +185,7 @@ list-style: none
   border: none;
   color: white;
 }
+
 @media screen and (max-width:768px) {
   #right{
     display: none;
@@ -208,12 +193,17 @@ list-style: none
   .button{
     margin: auto;
   }
+  .portfolio h2{
+    font-size: 50px;
+  }
 
 }
+
 @media all and (min-width: 768px)
 and (max-width: 992px) {
 
 }
+
 @media all and (min-width: 992px){
 
 }
