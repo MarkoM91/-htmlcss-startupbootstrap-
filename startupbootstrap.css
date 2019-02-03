@@ -186,3 +186,8 @@ list-style: none
   border-radius: 5px;
   border: none;
 }
+@media screen and (max-width: 768px;) {
+  #right{
+    display: none;
+  }
+}
