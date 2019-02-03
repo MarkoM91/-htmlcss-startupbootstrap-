@@ -20,7 +20,6 @@ nav span{
   text-transform: uppercase;
   font-weight: 700;
   padding: 0 20px 0;
-  font-family: Montserrat;
 }
 
 nav::after{
@@ -33,10 +32,9 @@ nav::after{
   width: 100%;
   height: 100%;
   background: #20c997;
-  text-align: center;
-  margin: auto;
   color: white;
   padding: 100px 0;
+  text-align: center;
 }
 
 .header > div > h1{
@@ -45,43 +43,39 @@ nav::after{
   text-transform: uppercase;
 }
 
-intro, .portfolio, .about, .contact{
+.intro, .portfolio, .about, .contact{
   padding: 100px 0;
 }
 
-.portfolio h2, .about-container h2, .text h2 {
+.portfolio h2, .about h2, .text h2 {
   padding-bottom: 75px;
-}
-
-.intro{
-  margin: auto;
-  width: 75%;
   text-align: center;
-}
-
-.header > div img{
-  width: 250px;
-  height: 250px;
-}
-
-.portfolio-container{
-  text-align: center;
-  color: rgb(24, 14, 87);
-  }
-
-.portfolio-container h2{
   font-size: 60px;
   font-weight: 700;
   text-transform: uppercase;
 }
 
-.grid{
-  width: 75%;
-  margin: auto;
+
+
+
+
+.portfolio{
+  text-align: center;
+  color: rgb(24, 14, 87);
+  }
+
+.portfolio h2{
+  font-size: 60px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
-.grid div{
+
+
+.column div{
   padding-bottom: 30px;
+  margin: auto;
+
 }
 
 .body::after{
@@ -90,56 +84,31 @@ intro, .portfolio, .about, .contact{
   display: table;
 }
 
-section.portfolio{
-  clear: both;
-  content: "";
-  display: table;
-}
 
-div.grid::after{
+
+div.column::after{
   clear: both;
   content: "";
   display: table;
 }
 
 .about{
-  text-align: center;
+text-align: center;
   padding: 50px;
   background-color: #20c997;
   color: white;
+  font-weight: 300;
 }
 
 .body  div  {
-  text-align: left;
   padding: 0 20px;
 }
 
-.about-container{
-  width: 75%;
-  margin: auto;
-  color: white;
-}
-
-.about-container h2{
-  padding-bottom: 50px;
-  font-size: 60px;
-  font-weight: 300;
-}
 
 .body{
   width: 100%;
 }
 
-.info-container{
-  width: 75%;
-  margin: auto;
-  text-align: center;
-}
-
-.grid > div img{
-  width: 100%;
-  height: 100%;
-}
 
 .navbar > ul > li{
 list-style: none
@@ -179,6 +148,7 @@ list-style: none
 
 .contact h2{
   font-size: 60px;
+  text-align: center;
 }
 
 .contact span{
