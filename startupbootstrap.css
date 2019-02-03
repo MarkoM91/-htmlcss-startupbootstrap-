@@ -57,7 +57,7 @@ nav::after{
 .portfolio h2, .about h2, .text h2 {
   padding-bottom: 75px;
   text-align: center;
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -130,7 +130,8 @@ list-style: none
 
 .text{
   text-align: center;
-  margin-bottom: 75p
+  margin-bottom: 75px;
+
 }
 
 .contact{
@@ -199,4 +200,12 @@ list-style: none
   #right{
     display: none;
   }
+
+}
+@media all and (min-width: 768px)
+and (max-width: 992px) {
+
+}
+@media all and (min-width: 992px){
+
 }
