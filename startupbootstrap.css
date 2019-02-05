@@ -97,22 +97,10 @@ nav::after{
   color: rgb(24, 14, 87);
   }
 
-.column div{
-  padding-bottom: 30px;
-  margin: auto;
-}
+.mt-30{
+  margin-top: 30px;
+  }
 
-.body::after{
-  clear: both;
-  content: "";
-  display: table;
-}
-
-div.column::after{
-  clear: both;
-  content: "";
-  display: table;
-}
 
 .about{
   padding: 50px;
