@@ -107,7 +107,7 @@ nav::after{
   background-color: #20c997;
   color: white;
 
-  
+
 }
 
 
@@ -182,11 +182,7 @@ list-style: none
   text-align: center;
 }
 
-.info::after{
-  clear: both;
-  content: "";
-  display: table;
-}
+
 
 .btn{
   width: 52px;
@@ -203,6 +199,10 @@ list-style: none
   background-color: rgb(24, 14, 87);
   border-radius: 5px;
   border: none;
+  color: white;
+}
+.footer{
+  background-color: rgb(24, 14, 87);
   color: white;
 }
 
