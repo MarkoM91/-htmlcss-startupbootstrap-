@@ -20,6 +20,9 @@ nav{
   line-height: 80px;
   color: white;
 }
+.header-right{
+  line-height: 80px;
+}
 
 .header-right ul{
   list-style: none;
@@ -31,6 +34,14 @@ text-decoration: none;
 text-transform: uppercase;
 color: white;
 line-height: 80px;
+padding: 0 25px;
+}
+.header-right ul  li  a:hover{
+color: #20c997;
+}
+.header-right li.active{
+  background-color: #20c997;
+  border-radius: 5px;
 }
 
 nav::after{
@@ -39,14 +50,11 @@ nav::after{
   display: table;
 }
 
-.header{
-  width: 100%;
-  height: 100%;
-  background: #20c997;
+.start{
+  background-color: #20c997;
+  padding: 30px 0;
   color: white;
-  padding: 100px 0;
-
-  }
+}
 .intro img{
   margin: auto;
 }
