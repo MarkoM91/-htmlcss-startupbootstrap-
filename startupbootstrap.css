@@ -80,10 +80,10 @@ color: #20c997;
   padding: 30px 0;
 }
 
-.portfolio h2, .about h2, .text h2 {
-  padding-bottom: 75px;
+.portfolio h1, .about h1, .text h1, .start h1 {
+  padding-bottom: 30px;
   text-align: center;
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -116,7 +116,6 @@ color: #20c997;
 
 .nav > ul > li{
 list-style: none;
-margin-right: 25px;
 }
 
 
@@ -140,8 +139,9 @@ color: #20c997;
 
 
 
-.contact h2{
-  font-size: 60px;
+.contact h1{
+  font-size: 40px;
+  text-transform: uppercase;
 }
 
 
@@ -173,12 +173,11 @@ color: #20c997;
   #right{
     display: none;
   }
-  .button{
-    margin: auto;
+  .nav > ul > li{
+  list-style: none;
+  margin-right: 25px;
   }
-  .portfolio h2{
-    font-size: 50px;
-  }
+
 
 }
 
