@@ -44,11 +44,6 @@ color: #20c997;
   border-radius: 5px;
 }
 
-nav::after{
-  clear: both;
-  content: "";
-  display: table;
-}
 
 .start{
   background-color: #20c997;
@@ -119,8 +114,9 @@ nav::after{
 }
 
 
-.navbar > ul > li{
-list-style: none
+.nav > ul > li{
+list-style: none;
+margin-right: 25px;
 }
 
 
@@ -148,20 +144,6 @@ color: #20c997;
   font-size: 60px;
 }
 
-.contact span{
-  font-size: 35px;
-  color: rgb(24, 14, 87);
-  margin-bottom: 30px;
-}
-
-.info{
-  background-color: rgb(24, 14, 87);
-  color: white;
-  padding: 15px 0;
-  text-align: center;
-}
-
-
 
 .btn{
   width: 35px;
@@ -182,6 +164,9 @@ color: #20c997;
 .footer{
   background-color: rgb(24, 14, 87);
   color: white;
+}
+.footer > .left, .nav, .right{
+  padding: 10px 0;
 }
 
 @media screen and (max-width:768px) {
