@@ -185,13 +185,12 @@ list-style: none
 
 
 .btn{
-  width: 52px;
-  height: 52px;
+  width: 35px;
+  height: 35px;
   border: 5px solid white;
   background-color: rgb(24, 14, 87);
   border-radius: 50%;
-  padding: 10px;
-  margin: 10px;
+  padding: 5px;
 }
 .form-group button{
   width: 100px;
