@@ -83,7 +83,7 @@ color: #20c997;
 .portfolio h1, .about h1, .text h1, .start h1 {
   padding-bottom: 30px;
   text-align: center;
-  font-size: 50px;
+  font-size: 48px;
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -176,6 +176,7 @@ color: #20c997;
   .nav > ul > li{
   list-style: none;
   margin-right: 25px;
+  margin-bottom: 10px;
   }
 
 
