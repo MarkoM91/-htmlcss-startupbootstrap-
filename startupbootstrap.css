@@ -52,9 +52,25 @@ nav::after{
 
 .start{
   background-color: #20c997;
-  padding: 30px 0;
   color: white;
+  padding: 30px 0;
 }
+.start .fa-star{
+  font-size: 40px;
+  position:relative;
+  height: 50px;
+  z-index: 3;
+}
+
+.start .fa-star:before{
+  background-color: red;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 200px;
+  height: 1%;
+}
+
 .intro img{
   margin: auto;
 }
@@ -65,7 +81,7 @@ nav::after{
   text-transform: uppercase;
 }
 
-.intro, .portfolio, .about, .contact{
+.start, .portfolio, .about, .contact{
   padding: 30px 0;
 }
 
