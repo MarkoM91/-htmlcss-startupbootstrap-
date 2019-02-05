@@ -103,11 +103,8 @@ nav::after{
 
 
 .about{
-
   background-color: #20c997;
   color: white;
-
-
 }
 
 
@@ -116,8 +113,9 @@ nav::after{
 }
 
 
-.body{
-  width: 100%;
+
+.body, .title{
+  padding: 15px 0;
 }
 
 
@@ -125,45 +123,26 @@ nav::after{
 list-style: none
 }
 
-.contact::after{
-  clear: both;
-  content: "";
-  display: table;
-}
-
-.text{
-  text-align: center;
-  margin-bottom: 75px;
-}
 
 .contact{
   color: rgb(24, 14, 87)
 }
 
-.about > .button{
-  padding: 40px 0;
-  height: 66px;
-  width: 230px;
-  border-radius: 8px;
-  border: 5px solid white;
-  margin: auto;
-  margin-top: 70px;
+.about .button{
+padding: 15px;
+margin: 30px;
+background-color: #20c997;
+border-radius: 5px;
+border: 5px solid white;
+color: white;
 }
-.button:hover {
-  background-color: white;
-  border: 5px solid #20c997;
+.about .button:hover{
+background-color: white;
+border: #20c997;
+color: #20c997;
 }
 
 
-.button a{
-  font-size: 20px;
-  color: rgb(24, 14, 87);
-  }
-
-#button1{
-  position: relative;
-  right: 40px;
-}
 
 .contact h2{
   font-size: 60px;
